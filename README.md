@@ -68,6 +68,9 @@ BERT is pre-trained on large amounts of unlabeled text data to learn contextual 
 1. **Masked Language Modeling (MLM)**: Predicting missing words in a sentence by considering the surrounding context.
 2. **Next Sentence Prediction (NSP)**: Determining whether two sentences are related.
 
+![1_OrJrNML9KbrW4TkaOobqEQ](https://github.com/user-attachments/assets/08116a9d-4c0b-429e-9577-4e426a7227b7)
+
+
 ### BERT Fine-Tuning
 After pre-training, BERT is fine-tuned on labeled data specific to the downstream task. In our case, we fine-tuned the model to classify cyber security complaints into appropriate categories and sub-categories.
 
@@ -75,6 +78,8 @@ After pre-training, BERT is fine-tuned on labeled data specific to the downstrea
 - **Input**: Sequence of tokens representing the complaint text.
 - **Processing**: Tokens are passed through the BERT model, which generates contextualized representations for each token.
 - **Output**: A sequence of vectors representing the classification prediction for each input token.
+
+![1_bqSEv_c5rzt3N__IQcudWg](https://github.com/user-attachments/assets/22adf9f6-d7db-4935-897d-f551b7db1495)
 
 ### Training Parameters:
 - `num_train_epochs`: Number of times the entire dataset is passed through the model during training.
