@@ -103,7 +103,7 @@ To run this project, you will need:
 - PyTorch
 - Transformers library from Hugging Face
 
-Install required libraries using:
+Install required libraries and clone the repo using:
 ```bash
 pip install -r requirements.txt
 
