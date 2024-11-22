@@ -1,7 +1,5 @@
 ## IndiaAI CyberGuard AI: Cybercrime Prevention Hackathon 
 ## Team Name - DataSheriffs 
-![image](https://github.com/user-attachments/assets/51f12434-ba26-472f-a307-da8fff5028b1)
-
 ## Team Members 
 
 1. Aditi Singh (Maharaja Agrasen Institute of Technology, Dept. of AI&ML) 
