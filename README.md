@@ -103,8 +103,10 @@ To run this project, you will need:
 - PyTorch
 - Transformers library from Hugging Face
 
-Install required libraries and clone the repo using:
+Install required libraries and clone the repo to initiate file for the model using tensorflow through the following commands:
 ```bash
 pip install -r requirements.txt
+git clone https://github.com/aditisinghh17/IndiaAI_CyberGuardHackathon-.git
+python -m tensorflow.keras.models load_model "bert-unbase-case-model.h5"
 
 
